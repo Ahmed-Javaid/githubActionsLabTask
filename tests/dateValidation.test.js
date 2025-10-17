@@ -20,3 +20,5 @@ describe("Event Validation", () => {
     expect(result.message).toBe("Event date cannot be in the past");
   });
 });
+
+//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
