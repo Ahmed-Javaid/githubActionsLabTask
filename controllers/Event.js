@@ -11,9 +11,9 @@ function isValidEvent(event) {
     return { valid: false, message: "Invalid date format" };
   }
    
-   //if (eventDate.getTime() < now.getTime()) {
-    //return { valid: false, message: "Event date cannot be in the past"};
-  //}
+   if (eventDate.getTime() < now.getTime()) {
+    return { valid: false, message: "Event date cannot be in the past"};
+  }
   
   return { valid: true, message: "Event is valid" };
 }
