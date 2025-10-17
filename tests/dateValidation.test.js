@@ -21,4 +21,3 @@ describe("Event Validation", () => {
   });
 });
 
-//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
